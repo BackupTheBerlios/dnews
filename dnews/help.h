@@ -15,5 +15,9 @@ struct sockaddr_in address;
 
 void openport(int);
 
+void ng2dir(char *);
+
+
+
 #endif
 
