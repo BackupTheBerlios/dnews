@@ -31,8 +31,8 @@ void openport(int portn) {
 }
 
 void ng2dir(char *ng) {
-	while(*ng != 0) {
-		if(*ng == '.') ng = '/';
+	while(*ng != NULL) {
+		if(*ng == '.') *ng = '/';
 		++ng;
 	}
 }
